@@ -1,0 +1,94 @@
+
+.recipe-box{
+    width: 420px;
+   height: 510px;
+   max-width:500px;
+   background:#000;
+   color:#fff;
+   top: 50%;
+   left: 50%;
+   position:absolute;
+   transform: translate(-50%, -50%); 
+   box-sizing: border-box;
+   padding: 30px 30px;
+} 
+.recipe-box .title{
+    margin: 0px;
+    margin-top: 0px;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+    color:#fff
+  }
+
+  .recipe-box form .recipe-details{
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+  }
+
+  form .recipe-details .input-box{
+      margin: 20px 0 12px 0;
+      width: calc(100% /2 - 20px);
+  }
+  .recipe-details .input-box .details{
+    display:block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+  
+  }
+  .recipe-details .input-box input{
+      height: 30px;
+      width: 100%;
+      outline:none;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      padding-left: 12px;
+      font-size: 14px;
+      border-bottom-width: 2px;
+  }
+
+  .recipe-details .input-box textarea{
+    height: 30px;
+    width:100%;
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 12px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+}
+
+  .recipe-details .input-box input:focus,
+  .recipe-details .input-box input:valid{
+      border-color:#9b59b6;
+  }
+
+  form .button{
+      height: 45px;
+      margin: 25px 0;  
+  }
+
+  form .button input{
+      height: 75%;
+      width: 350px;
+      outline: none;
+      color: #fff;
+      border:none;
+      font-size:18px;
+      font-weight: 500;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+  form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+  @media (max-width: 584px){
+    .recipe-box{
+        max-width:100%;
+    }
+    
+  }

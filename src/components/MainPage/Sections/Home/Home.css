@@ -1,0 +1,48 @@
+/* Hero */
+.overlay {
+    background: url('../../../../images/img2.jpg') center/cover ;
+  }
+  
+  section {
+    width: 100%;
+    display: table;
+    margin-top: -30px;
+    max-width: none;
+    height: 200vh;
+  }
+  
+  .intro {
+    height: 145vh;
+    padding-top: 30px;
+  }
+  
+  .content {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 100;
+    color: var(--mainwhite);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background: rgba(206, 206, 206, 0.035);
+  }
+  
+  .content h1 {
+    background-color:#dfddd6;
+    padding-top: 8px;
+    font-family: var(--main-font);
+    font-size: 50px;
+    line-height: 250px;
+    text-align: center;
+  }
+  
+  .intro .content h4 {
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #dfddd6;
+    font-family: var(--main-font);
+  }
+  /* End of Home */
+  
+  
